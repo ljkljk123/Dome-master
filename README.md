@@ -1,6 +1,6 @@
 # Dome: Fast and Robust LiDAR Place Recognition via Spherical Three-View Feature Fusion
 
-Dome is a lightweight, real-time LiDAR place recognition algorithm based on spherical multi-view projections and descriptor fusion. It achieves high recognition accuracy and robustness in complex environments, while maintaining very high processing speed without relying on deep learning or GPU acceleration.
+Dome is a lightweight, real-time LiDAR place recognition algorithm based on spherical multi-view projections and descriptor fusion. It achieves high recognition accuracy and robustness in complex environments, while maintaining very high processing speed without relying on deep learning or GPU acceleration.（**Paper under review, coming soon*）
 
 ---
 
@@ -39,9 +39,7 @@ Dome projects LiDAR point clouds onto three spherical views (R-P, P-Y, R-Y), and
 ## 🛠️ Build Instructions
 
 ```bash
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/src
-https://github.com/ljkljk123/Dome-master.git
+
 ```
 
 ---
@@ -61,16 +59,11 @@ https://github.com/ljkljk123/Dome-master.git
 ## 📄 Citation
 
 ```bibtex
-@article{YourPaper2025,
-  title={Dome: Fast and Robust LiDAR Place Recognition via Multi-View Feature Fusion},
-  author={Your Name et al.},
-  journal={TBD},
-  year={2025}
-}
+
 ```
 
 ---
 
 ## 📬 Contact
 
-For questions or feedback, feel free to open an issue or contact us at [youremail@domain.com].
+For questions or feedback, feel free to open an issue or contact us at [].
