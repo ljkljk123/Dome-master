@@ -36,20 +36,12 @@ Dome projects LiDAR point clouds onto three spherical views (R-P, P-Y, R-Y), and
 - Eigen3 = 3.3.4
 - ROS packages: `roscpp`, `pcl_ros`, `cv_bridge` (depending on usage)
 
-## 🧭 Dataset Support
-
-- KITTI
-- MulRan
----
-
 ## 🛠️ Build Instructions
 
 ```bash
-git clone https://github.com/YourName/Dome.git
-cd Dome
-mkdir build && cd build
-cmake ..
-make -j8
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+https://github.com/ljkljk123/Dome-master.git
 ```
 
 ---
@@ -57,20 +49,12 @@ make -j8
 ## 🧪 Run Example
 
 ```bash
-./dome_loop_detector \
-    --pc_folder ./data/kitti_05/velodyne \
-    --pose_file ./data/kitti_05/poses.txt
+
 ```
 
 ---
 
 ## 📈 Performance
-
-| Dataset   | Recall@1 | Time per Frame |
-|-----------|----------|----------------|
-| KITTI 05  | 98.2%    | 0.0041s        |
-| MulRan    | 95.3%    | 0.0043s        |
-| KAIST     | 96.7%    | 0.0040s        |
 
 ---
 
