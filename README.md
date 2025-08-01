@@ -1,6 +1,6 @@
-# Dome: Fast and Robust LiDAR Place Recognition via Multi-View Feature Fusion
+# Dome: Fast and Robust LiDAR Place Recognition via Spherical Three-View Feature Fusion
 
-Dome is a lightweight, real-time LiDAR place recognition algorithm based on spherical multi-view projections and descriptor fusion. It achieves high recognition accuracy and robustness in complex environments, while maintaining over **250Hz** inference speed without requiring deep learning or GPU acceleration.
+Dome is a lightweight, real-time LiDAR place recognition algorithm based on spherical multi-view projections and descriptor fusion. It achieves high recognition accuracy and robustness in complex environments, while maintaining very high processing speed without relying on deep learning or GPU acceleration.
 
 ---
 
@@ -14,21 +14,28 @@ Dome projects LiDAR point clouds onto three spherical views (R-P, P-Y, R-Y), and
 
 - 🔁 Robust loop closure under occlusion and rotation
 - ⚡ High-speed descriptor matching (250Hz+)
-- 📦 Pure C++ implementation with FFTW & OpenMP
+- 📦 Pure C++ implementation with FFTW
 - 🔎 No dependency on deep learning or GPU
-- 📊 Strong performance on KITTI, MulRan, and KAIST datasets
+- 📊 Strong performance on KITTI, and MulRan datasets
 
 ---
 
-## 📦 Dependencies
+## 📦 Environment & Dependencies
 
+**Tested Environment**
+- Ubuntu 18.04
+- **ROS Melodic**
+- GCC 7.5 / CMake ≥ 3.10
+- CPU-only (no GPU required)
+
+**Core Dependencies**
 - C++17
-- PCL ≥ 1.9
-- FFTW3
-- OpenCV ≥ 3.4
-- OpenMP (optional but recommended)
-
----
+- **PCL 1.8.x**  (default in ROS Melodic)
+- **OpenCV ≥ 3.4**  (tested with 3.4+, compatible with 3.2–4.x)
+- **FFTW3 ≥ 3.3**  (recommended 3.3.8+)
+- Eigen3
+- OpenMP (optional, but recommended for parallelization)
+- ROS packages: `roscpp`, `pcl_ros`, `cv_bridge` (depending on usage)
 
 ## 🧭 Dataset Support
 
