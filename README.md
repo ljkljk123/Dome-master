@@ -29,10 +29,10 @@ Dome projects LiDAR point clouds onto three spherical views (R-P, P-Y, R-Y), and
 - CPU-only (no GPU required)
 
 **Core Dependencies**
-- C++17
-- **PCL 1.8.1**  (default in ROS Melodic)
-- **OpenCV ≥ 3.2**  (tested with 3.2.0)
-- **FFTW3 = 3.3.7
+- **C++17**
+- PCL = 1.8.1  (default in ROS Melodic)
+- OpenCV ≥ 3.2  (tested with 3.2.0)
+- **FFTW3 = 3.3.7**
 - Eigen3 = 3.3.4
 - ROS packages: `roscpp`, `pcl_ros`, `cv_bridge` (depending on usage)
 
