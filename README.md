@@ -43,11 +43,7 @@ For efficient loop detection, Dome performs **cosine similarity matching in the 
 ## 🎬 Demo
 
 <p align="center">
-  <img src="assets/demo1.gif" width="800" />
-</p>
-
-<p align="center">
-  <img src="assets/demo2.gif" width="800" />
+  <img src="assets/video_dome.gif" width="800" />
 </p>
 
 ---
