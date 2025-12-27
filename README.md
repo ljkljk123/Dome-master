@@ -7,7 +7,7 @@ Dome: Fast and Robust LiDAR Place Recognition via Spherical Three-View Feature F
 </h1>
 
 <p align="center">
-CHONGQING UNIVERSITY
+CHONGQING UNIVERSITY . Key Laboratory of Optoelectronic Technology and Systems of Ministry of Education
 </p>
 
 
