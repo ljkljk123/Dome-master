@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>Dome_master</name>
+  <version>0.0.1</version>
+  <description>
+    Dome-based descriptor test node extracted from LinK3D
+  </description>
+
+  <maintainer email="ros@todo.todo">ros</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- ROS dependencies -->
+  <depend>roscpp</depend>
+
+  <!-- System dependencies via ROS wrappers -->
+  <depend>pcl_ros</depend>
+  <depend>eigen</depend>
+  <depend>opencv</depend>
+
+  <export>
+  </export>
+</package>

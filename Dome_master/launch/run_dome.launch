@@ -1,0 +1,7 @@
+<launch>
+
+    <arg name="project" default="Dome_master"/>
+
+    <node pkg="Dome_master" type="LinK3D_loop_test_dome" name="LinK3D_loop_test_dome" output="screen" respawn="true"/>
+
+</launch>
