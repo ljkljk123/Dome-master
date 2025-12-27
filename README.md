@@ -18,6 +18,9 @@ The method has been **accepted and published in the journal _Measurement_**.
 
 Dome achieves high recognition accuracy and strong robustness in complex environments while maintaining very high runtime efficiency.  
 It is a **pure C++ / CPU-only** solution and does **not rely on deep learning or GPU acceleration**.
+<p align="center">
+  <img src="assets/1.png" height="460"/>
+</p>
 
 ---
 
