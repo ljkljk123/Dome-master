@@ -104,7 +104,7 @@ sudo ldconfig
 ```bash
 mkdir -p ~/dome_ws/src
 cd ~/dome_ws/src
-git clone https://github.com/yourname/Dome.git
+git clone https://github.com/ljkljk123/Dome-master.git
 cd ..
 catkin_make
 source devel/setup.bash
