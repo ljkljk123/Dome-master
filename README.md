@@ -1,10 +1,17 @@
 <p align="center">
-  <img src="assets/cqu.jpg" height="80"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/yanjiuyan.png" height="80"/>
+  <img src="assets/cqu.png" height="160"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/yanjiuyan.png" height="160"/>
 </p>
 
-# Dome: Fast and Robust LiDAR Place Recognition via Spherical Three-View Feature Fusion
+<h1 align="center">
+Dome: Fast and Robust LiDAR Place Recognition via Spherical Three-View Feature Fusion
+</h1>
+
+<p align="center">
+CHONGQING UNIVERSITY · DEYANG INTELLIGENT ROBOT RESEARCH INSTITUTE
+</p>
+
 
 **Dome** is a fast and robust LiDAR place recognition method based on spherical multi-view projection and handcrafted descriptor fusion.  
 The method has been **accepted and published in the journal _Measurement_**.
