@@ -1,7 +1,5 @@
 <p align="center">
   <img src="assets/cqu.png" height="160"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/yanjiuyan.png" height="160"/>
 </p>
 
 <h1 align="center">
@@ -42,7 +40,17 @@ View-specific enhancement strategies are applied:
 For efficient loop detection, Dome performs **cosine similarity matching in the frequency domain**, accelerated by **FFTW**, enabling real-time performance on large-scale datasets.
 
 ---
+## 🎬 Demo
 
+<p align="center">
+  <img src="assets/demo1.gif" width="800" />
+</p>
+
+<p align="center">
+  <img src="assets/demo2.gif" width="800" />
+</p>
+
+---
 ## 🚀 Features
 
 - 🔁 Robust loop closure under viewpoint change, rotation, and partial occlusion  
